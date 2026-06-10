@@ -9,10 +9,12 @@ import BubbleMenu from "./BubbleMenu"
 
 gsap.registerPlugin(ScrollTrigger)
 
+const BASE = import.meta.env.BASE_URL
+
 const BUBBLE_ITEMS = [
-  { image: "/assets/1.png", label: "抖音", ariaLabel: "抖音主页", href: "https://www.douyin.com/user/MS4wLjABAAAAfYaDoGNHLq7F7csoJtxgKnTxUEPQ1xjtToFNXv33Mj4?from_tab_name=main", external: true },
-  { image: "/assets/2.png", label: "B站", ariaLabel: "B站主页", href: "https://space.bilibili.com/496757397?spm_id_from=333.337.0.0", external: true },
-  { image: "/assets/3.png", label: "YouTube", ariaLabel: "YouTube频道", href: "https://www.youtube.com/@yongjies", external: true },
+  { image: `${BASE}assets/1.png`, label: "抖音", ariaLabel: "抖音主页", href: "https://www.douyin.com/user/MS4wLjABAAAAfYaDoGNHLq7F7csoJtxgKnTxUEPQ1xjtToFNXv33Mj4?from_tab_name=main", external: true },
+  { image: `${BASE}assets/2.png`, label: "B站", ariaLabel: "B站主页", href: "https://space.bilibili.com/496757397?spm_id_from=333.337.0.0", external: true },
+  { image: `${BASE}assets/3.png`, label: "YouTube", ariaLabel: "YouTube频道", href: "https://www.youtube.com/@yongjies", external: true },
 ]
 
 const FORM_ENDPOINT = "https://formsubmit.co/15200674379@163.com"
