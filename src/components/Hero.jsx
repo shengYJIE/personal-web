@@ -5,6 +5,8 @@ import { useLang } from "../i18n/LanguageContext"
 import t from "../i18n/translations"
 import resume from "../data/resume"
 
+const BASE = import.meta.env.BASE_URL
+
 export default function Hero() {
   const { lang } = useLang()
   const tx = t[lang].hero
@@ -172,7 +174,7 @@ export default function Hero() {
           loop
           playsInline
           preload="metadata"
-          poster="/hero-poster.webp"
+          poster={`${BASE}hero-poster.webp`}
           style={{
             position: "absolute",
             inset: 0,
@@ -180,10 +182,10 @@ export default function Hero() {
             height: "100%",
             objectFit: "cover",
             opacity: 0.45,
-            background: `#050508 url('/hero-poster.webp') center/cover no-repeat`,
+            background: `#050508 url('${BASE}hero-poster.webp') center/cover no-repeat`,
           }}
         >
-          <source src="/bg.mp4" type="video/mp4" />
+          <source src={`${BASE}bg.mp4`} type="video/mp4" />
         </video>
         <div
           style={{
