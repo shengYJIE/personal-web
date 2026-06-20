@@ -31,7 +31,7 @@ const t = {
       ],
       education: {
         label: "教育背景",
-        school: "上海电子信息职业技术学院",
+        school: "湖南信息职业技术学院",
         degree: "电子信息工程技术 · 专科",
         period: "2023.09 — 2026.06",
         rank: "专业课程成绩稳居班级前 10%",
@@ -105,6 +105,7 @@ const t = {
       awards: {
         label: "荣誉与获奖",
         items: [
+          '湖南省"楚怡杯"嵌入式赛项二等奖（省级）',
           "一等奖学金 · 校级",
         ],
       },
@@ -159,7 +160,7 @@ My core strength: transforming cutting-edge LLM capabilities into scalable AI Ag
       ],
       education: {
         label: "Education",
-        school: "Shanghai Technical Institute of Electronics & Information",
+        school: "Hunan College of Information Technology",
         degree: "Electronic Information Engineering · Associate Degree",
         period: "2023.09 — 2026.06",
         rank: "Consistently ranked top 10% in class",
@@ -233,6 +234,7 @@ My core strength: transforming cutting-edge LLM capabilities into scalable AI Ag
       awards: {
         label: "Honors & Awards",
         items: [
+          "Hunan Province 'Chuyi Cup' Embedded Skills Competition — Provincial 2nd Prize",
           "First-Class Scholarship · University Level",
         ],
       },
