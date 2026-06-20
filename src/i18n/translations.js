@@ -23,9 +23,9 @@ const t = {
 同时对嵌入式硬件电路设计和 RTOS 系统有深入实践。
 我的独特优势在于：既能驾驭云端大模型能力编排与微调，也能深入底层硬件进行系统级开发。`,
       stats: [
-        { value: "4+", label: "核心项目" },
+        { value: "3+", label: "核心项目" },
         { value: "3", label: "年经验" },
-        { value: "12+", label: "技术栈" },
+        { value: "10+", label: "技术栈" },
         { value: "10%", label: "学业排名" },
       ],
       education: {
@@ -77,40 +77,28 @@ const t = {
           ],
           tags: ["Docker", "new-api", "n8n", "Gemini", "ChatGPT", "VPS", "Webhook"],
         },
-        {
-          title: "电子元器件数据标准化",
-          subtitle: "元器件工程师 · 华大半导体",
-          period: "2026.03 — 2026.06",
-          description: "在上海华大半导体科技有限公司负责电子元器件数据标准化审核，通过深入研究芯片数据手册进行替代料选型与逻辑构建，维护企业级 EDA 元件库，确保原理图与 PCB 封装标准匹配。",
-          highlights: [
-            "构建基于平台 BOM 的物料标准化流程与审核规范",
-            "维护企业级 EDA 元件库数据一致性与封装标准",
-            "有效降低硬件工程师器件选型与设计协同成本",
-          ],
-          tags: ["BOM", "EDA", "PCB", "元器件", "数据标准化", "华大半导体"],
-        },
       ],
     },
     skills: {
       label: "专业技能",
       title: "技术能力",
-      subtitle: "从云端 AI 编排到底层硬件设计 — 跨越软件与硬件边界的全栈能力",
+      subtitle: "从大模型微调到智能体编排 — 以 AI 工程化为核心的全栈能力",
       items: [
         {
-          name: "MAS系统多Agent设计实现",
-          desc: "熟练掌握多智能体协同架构设计，能够基于结构化 JSON 消息流与复杂 Prompt 工程构建自驱的状态机流转，实现多角色 Agent 之间的无人值守通信与分布式任务协同。",
+          name: "大模型微调与优化",
+          desc: "掌握SFT、LoRA算法微调技术与参数配置，精通8-bit量化与FP16混合精度训练策略优化显存使用。",
         },
         {
-          name: "AI Coding全栈开发",
-          desc: "擅长驾驭 Claude Code 与 Codex 等下一代 AI 编程工具作为核心 Copilot，通过精确的 Prompt 驱动完成前后端业务逻辑重构与响应式全栈主页构建，实现开发周期的工程化极致缩减。",
+          name: "LangGraph 多Agent协同",
+          desc: "精通Agent协同架构设计，能够构建从用户输入到前端展示的端到端服务，精通Function Calling工具层对接API。",
         },
         {
-          name: "知识库搭建",
-          desc: "具备非结构化数据工程化处理能力，能够利用 Python 脚本配合大模型 API 提取海量非结构化文档（如 Datasheet）中的关键参数，完成高精度的技术知识资产结构化抽取与清洗。",
+          name: "RAG 架构与数据工程",
+          desc: "构建数据处理流水线，使用PostgreSQL/pgvector实现高效数据检索，Python脚本清洗数据，精通Tokenizer配置。",
         },
         {
-          name: "嵌入式硬件电路设计与调试",
-          desc: "具备扎实的电子信息工程底层功底，精通 STM32/ESP32 微处理器开发与 RTOS 多任务调度，能独立完成从原理图设计、多层 PCB 绘制到边缘计算软硬件联调的全流程闭环。",
+          name: "Vibe Coding 全栈开发",
+          desc: "掌握Claude Code、Codex等AI编程工具，通过Prompt驱动完成FastAPI + Next.js开发，Docker容器化部署，n8n流程编排。",
         },
       ],
       awards: {
@@ -163,9 +151,9 @@ Proficient in high-efficiency Vibe Coding full-stack development using AI Coding
 with deep hands-on experience in embedded hardware circuit design and RTOS systems.
 My unique advantage: mastering cloud-side LLM orchestration & fine-tuning while also diving deep into low-level hardware system development.`,
       stats: [
-        { value: "4+", label: "Core Projects" },
+        { value: "3+", label: "Core Projects" },
         { value: "3", label: "Years Exp." },
-        { value: "12+", label: "Tech Stack" },
+        { value: "10+", label: "Tech Stack" },
         { value: "10%", label: "Top Rank" },
       ],
       education: {
@@ -217,40 +205,28 @@ My unique advantage: mastering cloud-side LLM orchestration & fine-tuning while 
           ],
           tags: ["Docker", "new-api", "n8n", "Gemini", "ChatGPT", "VPS", "Webhook"],
         },
-        {
-          title: "Component Data Standardization",
-          subtitle: "Component Engineer · HuaDa Semiconductor",
-          period: "2026.03 — 2026.06",
-          description: "Responsible for electronic component data standardization auditing at Shanghai HuaDa Semiconductor Technology Co., Ltd. Performed alternative component selection and logic construction through in-depth study of chip datasheets, maintaining enterprise EDA component library integrity.",
-          highlights: [
-            "Built platform BOM-based material standardization workflow and audit specifications",
-            "Maintained enterprise EDA component library data consistency and packaging standards",
-            "Effectively reduced hardware engineers' component selection and design collaboration costs",
-          ],
-          tags: ["BOM", "EDA", "PCB", "Components", "Data Standardization", "HuaDa Semi"],
-        },
       ],
     },
     skills: {
       label: "Expertise",
       title: "Technical Arsenal",
-      subtitle: "From cloud AI orchestration to bare-metal hardware — full-stack capabilities bridging software and hardware",
+      subtitle: "From LLM fine-tuning to agent orchestration — AI-centric full-stack capabilities",
       items: [
         {
-          name: "MAS Multi-Agent System Design",
-          desc: "Proficient in multi-agent collaborative architecture design, capable of building self-driven state machine flows based on structured JSON messaging and complex Prompt engineering, enabling unattended communication and distributed task coordination between multi-role Agents.",
+          name: "LLM Fine-Tuning & Optimization",
+          desc: "Proficient in SFT and LoRA fine-tuning techniques with parameter configuration, mastering 8-bit quantization and FP16 mixed precision training strategies to optimize VRAM usage.",
         },
         {
-          name: "AI Coding Full-Stack Development",
-          desc: "Skilled in leveraging next-gen AI programming tools like Claude Code and Codex as core Copilots, driving frontend/backend business logic refactoring and responsive full-stack development through precise Prompt engineering, achieving extreme engineering cycle reduction.",
+          name: "LangGraph Multi-Agent Orchestration",
+          desc: "Expert in Agent collaboration architecture design, building end-to-end services from user input to frontend display, proficient in Function Calling tool layer integration with APIs.",
         },
         {
-          name: "Knowledge Base Construction",
-          desc: "Capable of engineering unstructured data processing, using Python scripts with LLM APIs to extract critical parameters from massive unstructured documents (e.g., Datasheets), completing high-precision structured extraction and cleansing of technical knowledge assets.",
+          name: "RAG Architecture & Data Engineering",
+          desc: "Building data processing pipelines using PostgreSQL/pgvector for efficient vector retrieval, Python scripts for data cleaning and structuring, proficient in Tokenizer configuration.",
         },
         {
-          name: "Embedded Hardware Circuit Design & Debugging",
-          desc: "Solid foundational skills in electronic information engineering, proficient in STM32/ESP32 microprocessor development and RTOS multi-task scheduling, capable of independently completing the full closed-loop from schematic design, multi-layer PCB layout to edge computing hardware-software integration.",
+          name: "Vibe Coding Full-Stack Development",
+          desc: "Mastering Claude Code, Codex and other AI programming tools for Prompt-driven development with FastAPI + Next.js, Docker containerization, and n8n workflow orchestration.",
         },
       ],
       awards: {

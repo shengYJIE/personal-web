@@ -13,9 +13,9 @@ const resume = {
 同时对嵌入式硬件电路设计和 RTOS 系统有深入实践。
 我的独特优势在于：既能驾驭云端大模型能力编排与微调，也能深入底层硬件进行系统级开发。`,
   stats: [
-    { value: "4+", label: "核心项目" },
+    { value: "3+", label: "核心项目" },
     { value: "3", label: "年经验" },
-    { value: "12+", label: "技术栈" },
+    { value: "10+", label: "技术栈" },
     { value: "10%", label: "学业排名" },
   ],
   projects: [
@@ -61,54 +61,23 @@ const resume = {
       ],
       tags: ["Docker", "new-api", "n8n", "Gemini", "ChatGPT", "VPS", "Webhook"],
     },
-    {
-      id: 4,
-      title: "电子元器件数据标准化",
-      subtitle: "元器件工程师 · 华大半导体",
-      period: "2026.03 — 2026.06",
-      description:
-        "在上海华大半导体科技有限公司负责电子元器件数据标准化审核，通过深入研究芯片数据手册进行替代料选型与逻辑构建，维护企业级 EDA 元件库，确保原理图与 PCB 封装标准匹配，有效支撑硬件工程师的设计协同需求。",
-      highlights: [
-        "构建基于平台 BOM 的物料标准化流程与审核规范",
-        "维护企业级 EDA 元件库数据一致性与封装标准",
-        "有效降低硬件工程师器件选型与设计协同成本",
-      ],
-      tags: ["BOM", "EDA", "PCB", "元器件", "数据标准化", "华大半导体"],
-    },
   ],
   skills: [
     {
-      name: "MAS / Agent 系统设计",
-      desc: "多智能体协同架构，JSON 消息格式，复杂 Prompt 流程管理，分布式任务协同",
-      icon: "Brain",
-      large: true,
+      name: "大模型微调与优化",
+      desc: "掌握SFT、LoRA算法微调技术与参数配置，精通8-bit量化与FP16混合精度训练策略优化显存使用。",
     },
     {
-      name: "AI Coding 全栈开发",
-      desc: "Claude Code、Codex 等 AI 工具驱动前端与逻辑重构，Prompt Engineering",
-      icon: "Code",
-      large: true,
+      name: "LangGraph 多Agent协同",
+      desc: "精通Agent协同架构设计，能够构建从用户输入到前端展示的端到端服务，精通Function Calling工具层对接API。",
     },
     {
-      name: "知识库与数据处理",
-      desc: "Python 脚本 + 大模型 API，非结构化数据提取、清洗与关键信息结构化",
-      icon: "Database",
+      name: "RAG 架构与数据工程",
+      desc: "构建数据处理流水线，使用PostgreSQL/pgvector实现高效数据检索，Python脚本清洗数据，精通Tokenizer配置。",
     },
     {
-      name: "嵌入式硬件设计",
-      desc: "STM32/ESP32 微控制器，RTOS 调度优化，原理图到 PCB 全流程开发",
-      icon: "Cpu",
-      large: true,
-    },
-    {
-      name: "云服务与 DevOps",
-      desc: "Docker 容器化部署，VPS 运维，API 网关与负载均衡，n8n 自动化编排",
-      icon: "Cloud",
-    },
-    {
-      name: "Python 工程开发",
-      desc: "API 开发与调用，数据处理脚本，自动化工具链构建，大模型接口集成",
-      icon: "Terminal",
+      name: "Vibe Coding 全栈开发",
+      desc: "掌握Claude Code、Codex等AI编程工具，通过Prompt驱动完成FastAPI + Next.js开发，Docker容器化部署，n8n流程编排。",
     },
   ],
   awards: [
