@@ -14,7 +14,7 @@ const resume = {
 能够独立完成从模型训练微调到云端服务上线的全链路 AI 工程化落地。
 我的核心竞争力在于：将前沿大模型能力转化为可规模化交付的 AI Agent 产品，以 Prompt 驱动的 Vibe Coding 实现极致开发效率。`,
   stats: [
-    { value: "3+", label: "核心项目" },
+    { value: "4+", label: "核心项目" },
     { value: "3", label: "年经验" },
     { value: "10+", label: "技术栈" },
     { value: "10%", label: "学业排名" },
@@ -61,6 +61,20 @@ const resume = {
         "基于 RackNerd VPS 实现高可用负载均衡与 Token 精确控制",
       ],
       tags: ["Docker", "new-api", "n8n", "Gemini", "ChatGPT", "VPS", "Webhook"],
+    },
+    {
+      id: 4,
+      title: "基于 Harness Engineering 的 Agent 视频全自动生成系统",
+      subtitle: "AI 应用开发工程师",
+      period: "2026.05 — 2026.05",
+      description:
+        "基于 Harness Engineering 理论构建自动化视频生成系统，解决长文技术内容视频化过程中大模型逻辑跑偏与音画不对齐问题。通过多 Agent 协同隔离、Harness 四阶段状态机流程控制与 Reviewer 自检机制，实现从技术长文到口播脚本、全动态演示网页及多模态语音的全自动高可控转化。",
+      highlights: [
+        "Harness 四阶段状态机流程控制，引入 Feedback Repair 最小切片修复机制，消除大模型长上下文逻辑漂移",
+        "多 Agent 协同隔离：Agent Teams/Subagents 并行开发多章节，独立文件夹物理隔离，全局变量统一视觉风格",
+        'Reviewer Agent 指标硬性复核消除"自评失真"，MiniMax CLI 批量音频 + 前端参数实现动画帧与语音毫秒级对齐',
+      ],
+      tags: ["Harness", "Multi-Agent", "MiniMax TTS", "Claude Code", "n8n", "自动化"],
     },
   ],
   skills: [
