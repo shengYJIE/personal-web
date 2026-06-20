@@ -5,13 +5,14 @@ const resume = {
   phone: "15200674379",
   email: "15200674379@163.com",
   status: "未婚",
-  title: "AI & Embedded Systems Engineer",
-  subtitle: "构建 AI 与硬件的交叉点 — 从大模型微调到嵌入式系统的全栈工程师",
-  intro: `我是一名专注于 AI 应用与嵌入式系统交叉领域的全栈工程师。
-具备从大模型微调（LoRA）、LangGraph Agent 架构设计到 STM32/ESP32 裸机开发的完整技术栈。
-擅长使用 AI Coding 工具（Claude Code、Codex）进行 Vibe Coding 高效率全栈开发，
-同时对嵌入式硬件电路设计和 RTOS 系统有深入实践。
-我的独特优势在于：既能驾驭云端大模型能力编排与微调，也能深入底层硬件进行系统级开发。`,
+  title: "AI Agent 开发工程师",
+  subtitle: "AI Agent 全栈工程师 — 专注大模型微调、多智能体协同与 AI 原生应用开发",
+  intro: `我是一名专注于 AI Agent 与应用开发的全栈工程师。
+具备从大模型微调（LoRA/SFT）、LangGraph 多智能体架构设计到 RAG 知识增强系统的完整技术栈。
+精通 Function Calling 工具编排与 Agent 状态机流转设计，擅长构建从用户意图识别到端到端服务交付的 AI 原生应用。
+同时掌握 Docker 容器化部署、n8n 自动化流程编排与高可用 API 网关运维，
+能够独立完成从模型训练微调到云端服务上线的全链路 AI 工程化落地。
+我的核心竞争力在于：将前沿大模型能力转化为可规模化交付的 AI Agent 产品，以 Prompt 驱动的 Vibe Coding 实现极致开发效率。`,
   stats: [
     { value: "3+", label: "核心项目" },
     { value: "3", label: "年经验" },
@@ -81,7 +82,6 @@ const resume = {
     },
   ],
   awards: [
-    "全国大学生嵌入式芯片与系统设计竞赛 省二等奖",
     "一等奖学金 · 校级",
   ],
   education: {
