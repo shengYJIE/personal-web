@@ -9,7 +9,7 @@ const t = {
     },
     hero: {
       label: "个人作品集",
-      subtitle: "构建 AI 与硬件的交叉点 — 从云端智能到物理世界的全栈工程师",
+      subtitle: "构建 AI 与硬件的交叉点 — 从大模型微调到嵌入式系统的全栈工程师",
       cta: "联系我",
       secondary: "查看项目",
       scroll: "向下滚动",
@@ -18,10 +18,10 @@ const t = {
       label: "关于我",
       title: "AI 与嵌入式系统工程师",
       intro: `我是一名专注于 AI 应用与嵌入式系统交叉领域的全栈工程师。
-具备从大模型 API 调度、Agent 架构设计到 STM32/ESP32 裸机开发的完整技术栈。
-擅长使用 AI Coding 工具（Claude Code、Codex）进行高效率全栈开发，
+具备从大模型微调（LoRA）、LangGraph Agent 架构设计到 STM32/ESP32 裸机开发的完整技术栈。
+擅长使用 AI Coding 工具（Claude Code、Codex）进行 Vibe Coding 高效率全栈开发，
 同时对嵌入式硬件电路设计和 RTOS 系统有深入实践。
-我的独特优势在于：既能驾驭云端的 AI 能力编排，也能深入底层硬件进行系统级开发。`,
+我的独特优势在于：既能驾驭云端大模型能力编排与微调，也能深入底层硬件进行系统级开发。`,
       stats: [
         { value: "4+", label: "核心项目" },
         { value: "3", label: "年经验" },
@@ -30,8 +30,8 @@ const t = {
       ],
       education: {
         label: "教育背景",
-        school: "湖南信息职业技术学院",
-        degree: "电子信息 · 专科",
+        school: "上海电子信息职业技术学院",
+        degree: "电子信息工程技术 · 专科",
         period: "2023.09 — 2026.06",
         rank: "专业课程成绩稳居班级前 10%",
       },
@@ -42,41 +42,52 @@ const t = {
       title: "精选项目",
       items: [
         {
-          title: "云端大模型 API 调度系统",
-          subtitle: "自动化智能体编排与运维",
+          title: "LangGraph 多智能体协同推荐系统",
+          subtitle: "AI 应用开发工程师",
           period: "2026.06 — 2026.06",
-          description: "为多平台大模型接口管理及高频日常开发场景，搭建高可用 AI 模型调度的自动化运维系统。基于 Docker 部署统一接口管理系统，通过 n8n 自动化平台编排 Pipeline。",
+          description: "设计并实现基于 LangGraph 的多智能体协同商品推荐系统，支持商品关键词检索、多模态意图识别与 RAG 知识增强。通过 Agent 协作完成从用户输入到前端展示的端到端服务。",
           highlights: [
-            "统一管理 Gemini 3.1 Pro、ChatGPT 5.5 Thinking 等模型接口",
+            "设计 Agent 架构与 Function Calling 工具层，集成知识库提升推荐准确性",
+            "实现图像识别、商品查询、价格对比、实体推荐等核心模块",
+            "基于 FastAPI + Next.js + PostgreSQL/pgvector + Redis + Docker Compose",
+          ],
+          tags: ["LangGraph", "Function Calling", "RAG", "FastAPI", "Next.js", "PostgreSQL", "Docker"],
+        },
+        {
+          title: "LoRA 微调 DeepSeek-R1 大模型",
+          subtitle: "AI 算法工程师",
+          period: "2026.05 — 2026.05",
+          description: "面向通用大模型在特定垂直领域缺乏私有知识的问题，通过基于 LoRA 算法的监督微调技术对 DeepSeek-R1 进行领域适配，构建完整数据清洗与 Tokenizer 预处理流水线。",
+          highlights: [
+            "显存占用降低超 50%，训练速度提升一倍",
+            "微调后模型准确率达 99.94%，权重参数准确无误",
+            "成功实现大模型在特定业务场景下的领域知识注入与应用适配",
+          ],
+          tags: ["LoRA", "DeepSeek-R1", "SFT", "8-bit量化", "FP16", "Tokenizer"],
+        },
+        {
+          title: "云端大模型 API 管理与自动化",
+          subtitle: "自动化运维与智能体编排",
+          period: "2026.06 — 2026.06",
+          description: "为多平台大模型接口管理与高频日常开发场景，搭建高可用 AI 模型统一调度与自动化运维系统。基于 Docker 部署 new-api 接口管理系统，通过 n8n 自动化平台编排 Pipeline。",
+          highlights: [
+            "统一管理 Gemini 3.1 Pro、ChatGPT 5.5 Thinking 等头部模型接口",
             "自动化工作流使文档预处理时间降低 50%",
             "基于 RackNerd VPS 实现高可用负载均衡与 Token 精确控制",
           ],
-          tags: ["Docker", "new-api", "n8n", "Webhook", "Gemini", "ChatGPT", "VPS"],
-          link: "https://jayshone.com/",
+          tags: ["Docker", "new-api", "n8n", "Gemini", "ChatGPT", "VPS", "Webhook"],
         },
         {
-          title: "AI 驱动的个人数字空间",
-          subtitle: "MAS 系统全栈开发与架构设计",
-          period: "2026.05 — 2026.05",
-          description: "利用 AI 编程工具构建高度个性化的动态响应式网站，深度集成多智能体协同架构。通过精确 Prompt 工程驱动前端开发与业务逻辑重构，设计并实现了多色调主题切换与交互框架。",
+          title: "电子元器件数据标准化",
+          subtitle: "元器件工程师 · 华大半导体",
+          period: "2026.03 — 2026.06",
+          description: "在上海华大半导体科技有限公司负责电子元器件数据标准化审核，通过深入研究芯片数据手册进行替代料选型与逻辑构建，维护企业级 EDA 元件库，确保原理图与 PCB 封装标准匹配。",
           highlights: [
-            "开发周期较传统模式缩短 60%",
-            "前端动态渲染并模块化展示个人技术栈",
-            "实时综合 GitHub 仓库与社交媒体账号更新轨迹",
+            "构建基于平台 BOM 的物料标准化流程与审核规范",
+            "维护企业级 EDA 元件库数据一致性与封装标准",
+            "有效降低硬件工程师器件选型与设计协同成本",
           ],
-          tags: ["Claude Code", "Codex", "Copilot", "MAS", "Prompt Engineering", "React"],
-        },
-        {
-          title: "光伏热斑智能检测系统",
-          subtitle: "嵌入式硬件研发与 RTOS 优化",
-          period: "2025.10 — 2025.12",
-          description: "针对光伏电站组件热斑效应及发电效率衰减问题，研发基于红外热成像的非接触式智能检测与巡检系统原型。负责全流程硬件设计，从芯片选型到 PCB 绘制焊接调试。",
-          highlights: [
-            "热斑检测效率较传统方案提升 15%",
-            "巡检效率较人工方式提升 20%",
-            "基于 FreeRTOS 优化任务调度，提升系统实时性",
-          ],
-          tags: ["ESP32", "FreeRTOS", "PCB", "红外热成像", "嵌入式"],
+          tags: ["BOM", "EDA", "PCB", "元器件", "数据标准化", "华大半导体"],
         },
       ],
     },
@@ -138,7 +149,7 @@ const t = {
     },
     hero: {
       label: "Portfolio",
-      subtitle: "Building at the intersection of AI & Hardware — full-stack engineer from cloud intelligence to physical hardware",
+      subtitle: "Building at the intersection of AI & Hardware — full-stack engineer from LLM fine-tuning to embedded systems",
       cta: "Get in Touch",
       secondary: "View Projects",
       scroll: "Scroll",
@@ -147,10 +158,10 @@ const t = {
       label: "About",
       title: "AI & Embedded Systems Engineer",
       intro: `I am a full-stack engineer focused on the intersection of AI applications and embedded systems.
-I possess a complete tech stack spanning from large model API orchestration and Agent architecture design to STM32/ESP32 bare-metal development.
-Proficient in high-efficiency full-stack development using AI Coding tools (Claude Code, Codex),
+I possess a complete tech stack spanning from LLM fine-tuning (LoRA) and LangGraph Agent architecture design to STM32/ESP32 bare-metal development.
+Proficient in high-efficiency Vibe Coding full-stack development using AI Coding tools (Claude Code, Codex),
 with deep hands-on experience in embedded hardware circuit design and RTOS systems.
-My unique advantage: mastering cloud-side AI capability orchestration while also diving deep into low-level hardware system development.`,
+My unique advantage: mastering cloud-side LLM orchestration & fine-tuning while also diving deep into low-level hardware system development.`,
       stats: [
         { value: "4+", label: "Core Projects" },
         { value: "3", label: "Years Exp." },
@@ -159,8 +170,8 @@ My unique advantage: mastering cloud-side AI capability orchestration while also
       ],
       education: {
         label: "Education",
-        school: "Hunan Information Vocational & Technical College",
-        degree: "Electronic Information · Associate Degree",
+        school: "Shanghai Technical Institute of Electronics & Information",
+        degree: "Electronic Information Engineering · Associate Degree",
         period: "2023.09 — 2026.06",
         rank: "Consistently ranked top 10% in class",
       },
@@ -171,41 +182,52 @@ My unique advantage: mastering cloud-side AI capability orchestration while also
       title: "Featured Projects",
       items: [
         {
-          title: "Cloud LLM API Orchestration System",
-          subtitle: "Automated Agent Orchestration & DevOps",
+          title: "LangGraph Multi-Agent Recommendation System",
+          subtitle: "AI Application Developer",
           period: "2026.06 — 2026.06",
-          description: "Built a high-availability AI model orchestration and automated operations system for multi-platform LLM interface management and high-frequency development workflows. Deployed a unified API management system with Docker and orchestrated pipelines via n8n automation platform.",
+          description: "Designed and implemented a LangGraph-based multi-agent collaborative product recommendation system supporting keyword search, multimodal intent recognition, and RAG knowledge enhancement. Achieved end-to-end service from user input to frontend display through Agent collaboration.",
           highlights: [
-            "Unified management of Gemini 3.1 Pro, ChatGPT 5.5 Thinking and other models",
+            "Designed Agent architecture with Function Calling tool layer and integrated knowledge base to improve recommendation accuracy",
+            "Implemented image recognition, product search, price comparison, and entity recommendation modules",
+            "Built with FastAPI + Next.js + PostgreSQL/pgvector + Redis + Docker Compose",
+          ],
+          tags: ["LangGraph", "Function Calling", "RAG", "FastAPI", "Next.js", "PostgreSQL", "Docker"],
+        },
+        {
+          title: "LoRA Fine-Tuning DeepSeek-R1",
+          subtitle: "AI Algorithm Engineer",
+          period: "2026.05 — 2026.05",
+          description: "Addressed the lack of private domain knowledge in general-purpose LLMs by applying LoRA-based supervised fine-tuning to DeepSeek-R1. Built complete data cleaning and Tokenizer preprocessing pipelines with 8-bit quantization and FP16 mixed precision training strategies.",
+          highlights: [
+            "Reduced GPU memory usage by over 50% while doubling training speed",
+            "Achieved 99.94% accuracy with precise weight parameters after fine-tuning",
+            "Successfully injected domain knowledge into a large model for specific business scenarios",
+          ],
+          tags: ["LoRA", "DeepSeek-R1", "SFT", "8-bit Quant", "FP16", "Tokenizer"],
+        },
+        {
+          title: "Cloud LLM API Management & Automation",
+          subtitle: "Automated DevOps & Agent Orchestration",
+          period: "2026.06 — 2026.06",
+          description: "Built a high-availability AI model unified orchestration and automated operations system for multi-platform LLM interface management. Deployed new-api management system with Docker and orchestrated pipelines via n8n automation platform for intelligent model routing.",
+          highlights: [
+            "Unified management of Gemini 3.1 Pro, ChatGPT 5.5 Thinking and other leading models",
             "Automated workflows reduced document preprocessing time by 50%",
             "High-availability load balancing & precise Token control on RackNerd VPS",
           ],
-          tags: ["Docker", "new-api", "n8n", "Webhook", "Gemini", "ChatGPT", "VPS"],
-          link: "https://jayshone.com/",
+          tags: ["Docker", "new-api", "n8n", "Gemini", "ChatGPT", "VPS", "Webhook"],
         },
         {
-          title: "AI-Powered Personal Digital Space",
-          subtitle: "MAS Full-Stack Development & Architecture Design",
-          period: "2026.05 — 2026.05",
-          description: "Built a highly personalized dynamic responsive website using AI programming tools, deeply integrating multi-agent collaborative architecture. Drove frontend development and business logic refactoring through precise Prompt Engineering, designing and implementing a multi-theme switching and interaction framework.",
+          title: "Component Data Standardization",
+          subtitle: "Component Engineer · HuaDa Semiconductor",
+          period: "2026.03 — 2026.06",
+          description: "Responsible for electronic component data standardization auditing at Shanghai HuaDa Semiconductor Technology Co., Ltd. Performed alternative component selection and logic construction through in-depth study of chip datasheets, maintaining enterprise EDA component library integrity.",
           highlights: [
-            "Reduced development cycle by 60% compared to traditional methods",
-            "Dynamic frontend rendering with modular tech stack showcase",
-            "Real-time integration of GitHub repos & social media tracking",
+            "Built platform BOM-based material standardization workflow and audit specifications",
+            "Maintained enterprise EDA component library data consistency and packaging standards",
+            "Effectively reduced hardware engineers' component selection and design collaboration costs",
           ],
-          tags: ["Claude Code", "Codex", "Copilot", "MAS", "Prompt Engineering", "React"],
-        },
-        {
-          title: "Solar Panel Hot-Spot Detection System",
-          subtitle: "Embedded Hardware R&D & RTOS Optimization",
-          period: "2025.10 — 2025.12",
-          description: "Developed a non-contact intelligent detection and inspection system prototype based on infrared thermal imaging, targeting hot-spot effects and power efficiency degradation in photovoltaic station modules. Responsible for the full hardware design process, from chip selection to PCB layout, soldering, and debugging.",
-          highlights: [
-            "Improved hot-spot detection efficiency by 15% over traditional solutions",
-            "Increased inspection efficiency by 20% compared to manual methods",
-            "Optimized task scheduling with FreeRTOS for enhanced real-time performance",
-          ],
-          tags: ["ESP32", "FreeRTOS", "PCB", "Infrared Thermal", "Embedded"],
+          tags: ["BOM", "EDA", "PCB", "Components", "Data Standardization", "HuaDa Semi"],
         },
       ],
     },
